@@ -10,7 +10,7 @@
 
         <div class="row mt-5">
             <div class="col-12">
-                <div class="border bg-dark d3-container">
+                <div class="border d3-container">
                     <router-link class="text-white" to="/dashboard">Introduction</router-link>
                     <router-link class="text-white" to="/dashboard/world-map">World Map</router-link>
                     <router-link class="text-white" to="/dashboard/pie">Pie</router-link>

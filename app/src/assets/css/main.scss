@@ -34,19 +34,25 @@ nav a {
   }
 }
 
+.d3-container{
+  background: #031927!important;
+}
+
 .d3-container a {
   text-decoration: none !important;
   display: inline-block;
   padding: 1rem;
   width: 150px;
   text-align: center;
+  font-weight: bold;
 
   &:hover {
-    background: #AFA060;
+    background: #9DD1F1;
   }
 
   &.router-link-exact-active {
-    background: #2A1A1F;
+    background: #9DD1F1;
+    color: #000!important;
   }
 }
 
