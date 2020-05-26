@@ -2,15 +2,15 @@
 	<nav>
 		<ul>
 			<li>
-				<router-link to="/">Dashboard</router-link>	
+				<router-link to="/dashboard">Dashboard</router-link>	
 			</li>
 
 			<li>
-				<router-link to="team">Team</router-link>	
+				<router-link to="/team">Team</router-link>	
 			</li>
 
 			<li>
-				<router-link to="video">Video</router-link>	
+				<router-link to="/video">Video</router-link>	
 			</li>
 		</ul>
 	</nav>
@@ -19,7 +19,7 @@
 
 <style lang="scss">
 nav{
-	background: lightgray;
+	background: #000;
     display: flex;
     align-items: center;
     height: 80px;
@@ -36,7 +36,7 @@ nav{
 			font-size: 1.5rem;
 			a{
 				text-decoration: none;
-				color: #000;
+				color: #fff;
 			}
 		}
     }
