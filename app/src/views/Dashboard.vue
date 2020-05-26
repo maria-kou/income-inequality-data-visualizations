@@ -1,45 +1,31 @@
 <template>
-	<div>
-		<h1>Dashboard</h1>
-		
-		<ul style="display: flex;justify-content: center;">
-      <li>
-        <router-link to="/dashboard">Introduction</router-link>
-      </li>
-			<li>
-				<router-link to="/dashboard/world-map">World Map</router-link>
-			</li>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="m-0">Dashboard</h1>
+            </div>
+        </div>
 
-      <li>
-        <router-link to="/dashboard/pie">Pie</router-link>
-      </li>
-		</ul>
-    
-    <div style="margin-top: 5rem;text-align: center;">
-      <router-view/>
+        <hr>
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="border p-3 bg-dark d3-container">
+                    <router-link class="mx-4 text-white" to="/dashboard">Introduction</router-link>
+                    <router-link class="mx-4 text-white" to="/dashboard/world-map">World Map</router-link>
+                    <router-link class="mx-4 text-white" to="/dashboard/pie">Pie</router-link>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <router-view/>
+            </div>
+        </div>
     </div>
-    
-	</div>
 </template>
 
 <script>
-	export default {
-}
+    export default {}
 </script>
-
-<style lang="scss">
-  li{
-    list-style: none;
-    margin: 0 2rem;
-    color: #000;
-
-    a{
-      color: #000;
-      text-decoration: none;
-    }
-  }
-
-  ul{
-    padding: 0;
-  }
-</style>

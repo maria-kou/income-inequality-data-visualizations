@@ -1,34 +1,37 @@
 <template>
-	<div>
-		<h1>Team</h1>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="m-0">Team</h1>
+            </div>
+        </div>
 
-		<div style="display: flex;">
-			<div style="margin: 0 1rem">
-				<h5>Tasos Barous</h5>
-				<img src="https://via.placeholder.com/150" alt="">
-			</div>
+        <hr>
 
-			<div style="margin: 0 1rem">
-				<h5>Name Surname</h5>
-				<img src="https://via.placeholder.com/150" alt="">
-			</div>
+        <div class="row text-center mt-5">
+            <div class="col-12 col-sm-6 col-md-3 mb-3">
+                <p>Name Surname</p>
+                <img src="https://via.placeholder.com/100" alt="" class="w-100">
+            </div>
 
-			<div style="margin: 0 1rem">
-				<h5>Name Surname</h5>
-				<img src="https://via.placeholder.com/150" alt="">
-			</div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3">
+                <p>Name Surname</p>
+                <img src="https://via.placeholder.com/100" alt="" class="w-100">
+            </div>
 
-			<div style="margin: 0 1rem">
-				<h5>Name Surname</h5>
-				<img src="https://via.placeholder.com/150" alt="">
-			</div>
-			
-		</div>
-	</div>
+            <div class="col-12 col-sm-6 col-md-3 mb-3">
+                <p>Name Surname</p>
+                <img src="https://via.placeholder.com/100" alt="" class="w-100">
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 mb-3">
+                <p>Name Surname</p>
+                <img src="https://via.placeholder.com/100" alt="" class="w-100">
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
-	export default {
-
-	}
+    export default {}
 </script>

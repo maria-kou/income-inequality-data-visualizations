@@ -1,44 +1,20 @@
 <template>
-	<nav>
-		<ul>
-			<li>
-				<router-link to="/dashboard">Dashboard</router-link>	
-			</li>
+    <nav class="bg-dark">
+        <div class="container">
+            <div class="row align-items-center py-3">
+                <div class="col-12 col-md-6 col-lg-8 text-center text-md-left">
+                    <h4 class="text-white m-0">
+                        <a href="/">INCOME INEQUALITY VISUALIZATIONS</a>
 
-			<li>
-				<router-link to="/team">Team</router-link>	
-			</li>
+                    </h4>
+                </div>
 
-			<li>
-				<router-link to="/video">Video</router-link>	
-			</li>
-		</ul>
-	</nav>
+                <div class="col-12 col-md-6 col-lg-4 text-center text-md-right mt-3 mt-md-0">
+                    <router-link class="mx-3" to="/dashboard">Dashboard</router-link>
+                    <router-link class="mx-3" to="/team">Team</router-link>
+                    <router-link class="mx-3" to="/video">Video</router-link>
+                </div>
+            </div>
+        </div>
+    </nav>
 </template>
-
-
-<style lang="scss">
-nav{
-	background: #000;
-    display: flex;
-    align-items: center;
-    height: 80px;
-    justify-content: center;
-
-    ul{
-		display: flex;
-		padding: 0;
-
-		li{
-			list-style: none;
-			margin-right: 2rem;
-			margin-left: 2rem;
-			font-size: 1.5rem;
-			a{
-				text-decoration: none;
-				color: #fff;
-			}
-		}
-    }
-}
-</style>

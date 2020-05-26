@@ -1,0 +1,53 @@
+html {
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+#app {
+  width: 100%;
+}
+
+a, p, h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none !important;
+
+  &:hover {
+    color: lightgray;
+  }
+
+  &.router-link-exact-active {
+    color: teal;
+  }
+}
+
+.d3-container a {
+  text-decoration: none !important;
+
+  &.router-link-exact-active {
+    color: lightgreen!important;
+  }
+}
+
+// Transitions
+.fade-enter-active, .fade-leave-active {
+  transition-property: opacity;
+  transition-duration: .25s;
+}
+
+.fade-enter-active {
+  transition-delay: .25s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
