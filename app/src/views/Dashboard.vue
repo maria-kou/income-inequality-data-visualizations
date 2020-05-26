@@ -10,17 +10,19 @@
 
         <div class="row mt-5">
             <div class="col-12">
-                <div class="border p-3 bg-dark d3-container">
-                    <router-link class="mx-4 text-white" to="/dashboard">Introduction</router-link>
-                    <router-link class="mx-4 text-white" to="/dashboard/world-map">World Map</router-link>
-                    <router-link class="mx-4 text-white" to="/dashboard/pie">Pie</router-link>
+                <div class="border bg-dark d3-container">
+                    <router-link class="text-white" to="/dashboard">Introduction</router-link>
+                    <router-link class="text-white" to="/dashboard/world-map">World Map</router-link>
+                    <router-link class="text-white" to="/dashboard/pie">Pie</router-link>
                 </div>
             </div>
         </div>
 
         <div class="row mt-5">
             <div class="col-12 text-center">
-                <router-view/>
+                <transition name="fade">
+                    <router-view/>
+                </transition>
             </div>
         </div>
     </div>

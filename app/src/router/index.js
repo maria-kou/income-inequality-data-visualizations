@@ -6,7 +6,9 @@ Vue.use(VueRouter);
 const routes = [
     {
         path: '/',
-        redirect: {name: 'Dashboard'}
+        redirect: {
+            name: 'Introduction'
+        }
     },
     {
         path: '/dashboard',
@@ -21,7 +23,7 @@ const routes = [
             {
                 path: 'world-map',
                 name: 'WorldMap',
-                component: () => import('../views/dashboard/WorldMap.vue'),
+                component: () => import('../views/dashboard/Map.vue'),
             },
             {
                 path: 'pie',

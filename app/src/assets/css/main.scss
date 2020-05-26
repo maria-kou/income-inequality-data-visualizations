@@ -17,6 +17,10 @@ a, p, h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
 
+nav {
+  background-color: #031927 !important;
+}
+
 nav a {
   color: #fff;
   text-decoration: none !important;
@@ -26,26 +30,34 @@ nav a {
   }
 
   &.router-link-exact-active {
-    color: teal;
+    color: #9DD1F1;
   }
 }
 
 .d3-container a {
   text-decoration: none !important;
+  display: inline-block;
+  padding: 1rem;
+  width: 150px;
+  text-align: center;
+
+  &:hover {
+    background: #AFA060;
+  }
 
   &.router-link-exact-active {
-    color: lightgreen!important;
+    background: #2A1A1F;
   }
 }
 
 // Transitions
 .fade-enter-active, .fade-leave-active {
   transition-property: opacity;
-  transition-duration: .25s;
+  transition-duration: .15s;
 }
 
 .fade-enter-active {
-  transition-delay: .25s;
+  transition-delay: .15s;
 }
 
 .fade-enter, .fade-leave-active {

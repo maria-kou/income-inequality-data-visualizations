@@ -1,11 +1,10 @@
 <template>
-    <nav class="bg-dark">
+    <nav>
         <div class="container">
             <div class="row align-items-center py-3">
                 <div class="col-12 col-md-6 col-lg-8 text-center text-md-left">
                     <h4 class="text-white m-0">
-                        <a href="/">INCOME INEQUALITY VISUALIZATIONS</a>
-
+                        <a href="/dashboard">INCOME INEQUALITY VISUALIZATIONS</a>
                     </h4>
                 </div>
 
