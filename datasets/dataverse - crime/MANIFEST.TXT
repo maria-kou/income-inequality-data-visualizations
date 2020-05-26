@@ -1,0 +1,2 @@
+JPR robbery.do (application/x-stata-syntax) 7712 bytes.
+JPR robbery.dta (application/x-stata) 125131 bytes.
