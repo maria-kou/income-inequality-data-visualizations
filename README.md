@@ -23,8 +23,8 @@ Usage:
 Vue.js hints:
 1. Application code resides in the src folder.
 2. router/index.js is the application router.
-3. Vue.js gives us the ability to write components
-	Every component like App.vue or Dashboard.vue has the format:
+3. Vue.js gives us the ability to write components, every component like App.vue or Dashboard.vue has the format:
+
 ```
 	<template>
 	    <div>
@@ -49,7 +49,6 @@ Vue.js hints:
 	</script>
 ```
 
-	In template tags we write the markup of the component.
-	In script tags we write the javascript part of the component
-
-D3.js is imported in public/index.html via cdn
+- In template tags we write the markup of the component.
+- In script tags we write the javascript part of the component
+- D3.js is imported in public/index.html via cdn
