@@ -12,7 +12,6 @@ Built with:
 - In the file index.js is the server configuration where every URL route leads to /dist/index.html where lies the Vue.js app
 
 Usage:
-- To make changes run the commands:
 1. cd app
 2. npm run serve (which creates a local dev server)
 3. visit http://localhost:8080/ to see the app running
