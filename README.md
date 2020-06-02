@@ -24,3 +24,35 @@ and visit http://localhost:5000 to view the application.
 5. Run the command: npm run build in the app directory
 6. Run the command: node index.js
 7. Visit http://localhost:5000 to view the application.
+
+- Some vue.js hints:
+1. Application code resides in the src folder.
+2. router/index.js is the application router.
+3. Vue.js gives us the ability to write components
+	Every component like App.vue or Dashboard.vue has the format:
+	<template>
+	    <div>
+	        ...
+	    </div>
+	</template>
+
+	<script>
+	    export default {
+	        components: {
+	        },
+	        data: {
+
+	        },
+	        methods: {
+
+	        },
+	        computed: {
+
+	        }
+	    }
+	</script>
+
+	In template tags we write the markup of the component.
+	In script tags we write the javascript part of the component
+
+D3.js is imported in public/index.html via cdn
