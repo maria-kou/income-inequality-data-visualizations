@@ -30,7 +30,8 @@ and visit http://localhost:5000 to view the application.
 2. router/index.js is the application router.
 3. Vue.js gives us the ability to write components
 	Every component like App.vue or Dashboard.vue has the format:
-	`<template>
+```
+	<template>
 	    <div>
 	        ...
 	    </div>
@@ -50,7 +51,8 @@ and visit http://localhost:5000 to view the application.
 
 	        }
 	    }
-	</script>`
+	</script>
+```
 
 	In template tags we write the markup of the component.
 	In script tags we write the javascript part of the component
