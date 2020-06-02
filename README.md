@@ -20,7 +20,7 @@ Usage:
 6. Run the command: node index.js
 7. Visit http://localhost:5000 to view the application.
 
-- Some vue.js hints:
+Vue.js hints:
 1. Application code resides in the src folder.
 2. router/index.js is the application router.
 3. Vue.js gives us the ability to write components
