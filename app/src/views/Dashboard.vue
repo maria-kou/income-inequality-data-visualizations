@@ -75,15 +75,14 @@
                         hideTabs: true,
                         width: '100%',
                         height: '600px',
+                        hideToolbar: true,
                         onFirstInteractive: () => {
                             console.log("Run this code when the viz has finished loading.");
                             this.loading = false;
-                            // this.showme = true;
                         }
                     };
 
-                var viz = new window.tableau.Viz(containerDiv, url, options);
-                console.log(viz)
+                new window.tableau.Viz(containerDiv, url, options);
             }
         }
     }
