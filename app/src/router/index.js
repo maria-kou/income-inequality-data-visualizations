@@ -14,23 +14,23 @@ const routes = [
         path: '/dashboard',
         name: 'Dashboard',
         component: () => import('../views/Dashboard.vue'),
-        children: [
-            {
-                path: '',
-                name: 'Introduction',
-                component: () => import('../views/dashboard/Introduction.vue'),
-            },
-            {
-                path: 'world-map',
-                name: 'WorldMap',
-                component: () => import('../views/dashboard/Map.vue'),
-            },
-            {
-                path: 'pie',
-                name: 'Pie',
-                component: () => import('../views/dashboard/Pie.vue'),
-            }
-        ]
+        // children: [
+        //     {
+        //         path: '',
+        //         name: 'Introduction',
+        //         component: () => import('../views/dashboard/Introduction.vue'),
+        //     },
+        //     {
+        //         path: 'world-map',
+        //         name: 'WorldMap',
+        //         component: () => import('../views/dashboard/Map.vue')
+        //     },
+        //     {
+        //         path: 'pie',
+        //         name: 'Pie',
+        //         component: () => import('../views/dashboard/Pie.vue'),
+        //     }
+        // ]
     },
     {
         path: '/team',

@@ -78,7 +78,7 @@
                     .attr("dy", -8)
                     .attr("y", (d, i) => -(i + 1) * 25);
 
-                g.attr("transform", "translate(200,300)");
+                g.attr("transform", "translate(200,150)");
             }
         }
     }
