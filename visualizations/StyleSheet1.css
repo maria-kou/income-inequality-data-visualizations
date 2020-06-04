@@ -1,0 +1,56 @@
+﻿body{
+  font-family:sans-serif;
+  background:#fff;
+  }
+svg{
+ margin-top:40px;
+}  
+.axis path {
+			fill: none;
+			stroke: #777;
+			shape-rendering: crispEdges;
+		}
+		.axis text {
+			font-size: 11px;
+      opacity: 0.5;
+		}
+		.axis line {
+		  fill: none;
+		  stroke: #000;
+		  shape-rendering: crispEdges;
+		}
+
+		.grid path,
+		.grid line {
+		  fill: none;
+		  stroke: rgba(0, 0, 0, 0.25);
+		  shape-rendering: crispEdges;
+		}
+  
+  .tick line{
+    stroke: #f5f5f5;
+  }
+  
+
+  .lineLabel{
+    font-size:12px;
+  }
+
+  div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    padding: 10px;	
+    font: 12px sans-serif;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+#xAxis g.tick line {
+  stroke: #f5f5f5;
+  stroke-dasharray:3,3;
+}
+
+#xAxis g.tick:nth-child(3n) line {
+  stroke: #e3e3e3;
+  stroke-dasharray:0,0;
+}
